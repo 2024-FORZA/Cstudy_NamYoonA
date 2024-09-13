@@ -2,22 +2,22 @@
 
 void print_stars(int N) {
     for (int i = 1; i <= N; i++) {
-        // °ø¹é Ãâ·Â
+        // ê³µë°± ì¶œë ¥
         for (int j = 0; j < N - i; j++) {
             printf(" ");
         }
-        // º° Ãâ·Â
+        // ë³„ ì¶œë ¥
         for (int k = 0; k < i; k++) {
             printf("*");
         }
-        // ÁÙ ¹Ù²Þ
+        // ì¤„ ë°”ê¿ˆ
         printf("\n");
     }
 }
 
 int main() {
     int N;
-    scanf("%d", &N); // ¼ýÀÚ¸¦ ÀÔ·Â ¹Þ½À´Ï´Ù.
-    print_stars(N);  // º°À» Ãâ·ÂÇÕ´Ï´Ù.
+    scanf("%d", &N); // ìˆ«ìžë¥¼ ìž…ë ¥ ë°›ìŠµë‹ˆë‹¤.
+    print_stars(N);  // ë³„ì„ ì¶œë ¥í•©ë‹ˆë‹¤.
     return 0;
 }
